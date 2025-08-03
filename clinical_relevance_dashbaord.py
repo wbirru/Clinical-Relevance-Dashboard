@@ -11,7 +11,7 @@ current_date = datetime.datetime.now().strftime("%A, %B %d, %Y")
 st.markdown(f"**📅 Date:** {current_date}")
 st.info("""
 This platform integrates genomic and therapeutic data, focusing on drug-gene interactions and dynamic data visualizations.
-It uses tools such as DGIdb, DisGeNET, Open Targets Platform, and PharmGKB,
+It uses tools such as DGIdb, DisGeNET, Open Targets Platform, PharmGKB, CTD (Comparative Toxicogenomics Database), DeepPurpose and Hetionet
 emphasizing user-friendly interfaces and transparent data sources.
 Developed for advanced genomic analysis and related applications.
 """)
